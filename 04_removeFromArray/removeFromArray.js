@@ -1,4 +1,6 @@
-const removeFromArray = function() {
+const removeFromArray = function(targetArray, itemRemove) {
+    removedArray = targetArray.splice(itemRemove.toString());
+    return removedArray
 
 };
 
